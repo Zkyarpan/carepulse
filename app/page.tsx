@@ -1,10 +1,16 @@
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-white text-3xl underline">Home</h1>
-      <Button>Click Me</Button>
+     <section className='remove-scrollbar container my-auto'>
+      <div className='sub-container max-w-[496px]'>
+        <Image 
+         
+        />
+      </div>
+     </section>
     </div>
   );
 }
